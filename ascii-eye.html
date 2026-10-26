@@ -29,19 +29,6 @@
 <body>
 <canvas id="out"></canvas>
 
-<div id="ui">
-  <div class="row">
-    <button id="srcEye" class="on">Глаз</button>
-    <button id="srcCam">Камера</button>
-    <button id="srcFile">Видео…</button>
-  </div>
-  <div class="row">Шрифт <input id="size" type="range" min="6" max="18" value="10"> <span id="sizeVal">10</span></div>
-  <div class="row">Контраст <input id="gamma" type="range" min="40" max="160" value="85"></div>
-  <div class="row"><button id="color" class="on">Цвет</button><button id="pause">Пауза</button></div>
-  <div class="hint">H: скрыть панель · можно перетащить видео в окно</div>
-</div>
-<input id="file" type="file" accept="video/*">
-
 <script>
 // Paul Bourke's 70-level ramp, the same one the original Python script uses
 const RAMP = " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$";
